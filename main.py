@@ -366,7 +366,7 @@ def main():
         print("=" * 40)
 
     except Exception as e:
-        print("\n❌ An error occurred during processing.")
+        print("\n An error occurred during processing.")
         print("Error details:", str(e))
         print("Please check input files or try again.")
 

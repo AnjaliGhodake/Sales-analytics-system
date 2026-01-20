@@ -127,4 +127,4 @@ def save_enriched_data(enriched_transactions, filename='data/enriched_sales_data
 
             file.write('|'.join(row) + '\n')
 
-    print(f"📁 Enriched data saved to: {filename}")
+    print(f" Enriched data saved to: {filename}")
